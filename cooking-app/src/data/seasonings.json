@@ -1,0 +1,299 @@
+{
+  "seasonings": [
+    {
+      "id": "salt",
+      "name": "盐",
+      "aliases": ["食盐", "精盐"],
+      "category": "basic",
+      "image": "/images/seasonings/salt.jpg",
+      "description": "盐是最基础的调味品，能提鲜增味，是所有菜肴都离不开的调味核心。用量需适中，过多过少都会影响菜品口感。",
+      "functions": ["提鲜", "调味", "腌制", "防腐"],
+      "usageGuide": {
+        "standardAmount": "2-3克/人/餐",
+        "dailyLimit": "成人每日盐摄入量不超过6克",
+        "usageScenarios": [
+          {
+            "scenario": "炒菜",
+            "method": "出锅前加入，快速翻炒均匀",
+            "tips": "后放盐可以减少碘的流失"
+          },
+          {
+            "scenario": "腌制",
+            "method": "提前用盐腌制肉类",
+            "tips": "腌制15-30分钟，可使肉质更嫩"
+          }
+        ]
+      },
+      "substitution": "可用酱油替代部分盐，但需减少酱油用量",
+      "healthTips": "高血压患者应控制盐的摄入量",
+      "scientificReferences": [
+        {
+          "title": "中国居民膳食指南(2022)——食盐摄入建议",
+          "source": "中国营养学会",
+          "year": 2022,
+          "finding": "成人每日食盐摄入量应控制在5克以下"
+        }
+      ]
+    },
+    {
+      "id": "sugar",
+      "name": "糖",
+      "aliases": ["白糖", "砂糖"],
+      "category": "basic",
+      "image": "/images/seasonings/sugar.jpg",
+      "description": "糖不仅能提供甜味，还能提鲜、上色、增稠，在中式烹饪中用途广泛。适量加糖可以让菜品口感更丰富。",
+      "functions": ["提鲜", "增甜", "上色", "增稠"],
+      "usageGuide": {
+        "standardAmount": "3-5克/人/餐",
+        "usageScenarios": [
+          {
+            "scenario": "提鲜",
+            "method": "炒菜时加少许糖",
+            "tips": "糖能提升鲜味，但不宜过多"
+          },
+          {
+            "scenario": "红烧",
+            "method": "炒糖色后加入食材",
+            "tips": "小火慢炒，糖融化变色后立即加水"
+          }
+        ]
+      },
+      "substitution": "可用冰糖替代，口感更清甜",
+      "healthTips": "糖尿病患者应避免使用",
+      "scientificReferences": [
+        {
+          "title": "烹饪中糖的作用机理研究",
+          "source": "食品科学",
+          "year": 2020,
+          "finding": "糖在高温下发生美拉德反应，产生诱人的色泽和香味"
+        }
+      ]
+    },
+    {
+      "id": "light-soy-sauce",
+      "name": "生抽",
+      "aliases": ["生抽酱油", "淡色酱油"],
+      "category": "sauce",
+      "image": "/images/seasonings/light-soy-sauce.jpg",
+      "description": "生抽是酱油的一种，颜色较浅，味道咸鲜，主要用于调味和提鲜，是中式烹饪最常用的调味品之一。",
+      "difference": "与老抽的区别：生抽颜色浅、味道咸鲜，主要用于调味；老抽颜色深、味道醇厚，主要用于上色。",
+      "functions": ["调味", "提鲜", "增咸"],
+      "usageGuide": {
+        "standardAmount": "5-10毫升/人/餐",
+        "usageScenarios": [
+          {
+            "scenario": "炒菜",
+            "method": "出锅前淋入，快速翻炒",
+            "tips": "生抽含盐，加生抽后需减少盐的用量"
+          },
+          {
+            "scenario": "蘸料",
+            "method": "直接作为蘸料使用",
+            "tips": "可搭配醋、蒜等调制蘸料"
+          }
+        ]
+      },
+      "substitution": "可用盐+少许糖替代，但风味会有差异",
+      "selectionGuide": {
+        "quality": "选择酿造酱油，氨基酸态氮含量越高越好",
+        "storage": "开封后冰箱冷藏，避免阳光直射"
+      },
+      "scientificReferences": [
+        {
+          "title": "酱油发酵过程中风味物质的形成机理",
+          "source": "食品与发酵工业",
+          "year": 2019,
+          "finding": "优质酱油含有多种氨基酸和有机酸，营养价值较高"
+        }
+      ]
+    },
+    {
+      "id": "dark-soy-sauce",
+      "name": "老抽",
+      "aliases": ["老抽酱油", "深色酱油"],
+      "category": "sauce",
+      "image": "/images/seasonings/dark-soy-sauce.jpg",
+      "description": "老抽是经过特殊工艺制成的酱油，颜色深红，主要用于给菜品上色，使菜肴呈现诱人的红亮色泽。",
+      "difference": "与生抽的区别：老抽颜色深、主要用于上色；生抽颜色浅、主要用于调味。",
+      "functions": ["上色", "增香"],
+      "usageGuide": {
+        "standardAmount": "3-5毫升/人/餐",
+        "usageScenarios": [
+          {
+            "scenario": "红烧",
+            "method": "与生抽配合使用，先加老抽上色",
+            "tips": "老抽用量不宜过多，否则颜色过深"
+          },
+          {
+            "scenario": "卤制",
+            "method": "卤水中加入老抽",
+            "tips": "使卤制品呈现诱人的红褐色"
+          }
+        ]
+      },
+      "substitution": "可用生抽+糖炒制替代，但效果略差",
+      "selectionGuide": {
+        "quality": "选择颜色深红、质地浓稠的",
+        "storage": "开封后冰箱冷藏"
+      },
+      "scientificReferences": [
+        {
+          "title": "酱油色泽形成机理及调控技术研究",
+          "source": "中国调味品",
+          "year": 2020,
+          "finding": "老抽的深色来自美拉德反应产生的类黑精"
+        }
+      ]
+    },
+    {
+      "id": "cooking-wine",
+      "name": "料酒",
+      "aliases": ["黄酒", "绍兴酒"],
+      "category": "sauce",
+      "image": "/images/seasonings/cooking-wine.jpg",
+      "description": "料酒是烹饪专用的酒类调味品，含有乙醇和多种氨基酸，能有效去除肉类腥味，增加菜品香气。",
+      "functions": ["去腥", "增香", "嫩肉"],
+      "usageGuide": {
+        "standardAmount": "10-15毫升/人/餐",
+        "usageScenarios": [
+          {
+            "scenario": "腌制",
+            "method": "肉类腌制时加入料酒",
+            "tips": "腌制15分钟以上，去腥效果更好"
+          },
+          {
+            "scenario": "爆锅",
+            "method": "热锅后沿锅边淋入",
+            "tips": "高温使酒精挥发，带走腥味物质"
+          }
+        ]
+      },
+      "substitution": "可用白酒或啤酒替代，但用量需调整",
+      "selectionGuide": {
+        "quality": "选择酿造料酒，避免使用勾兑料酒",
+        "storage": "常温密封保存"
+      },
+      "scientificReferences": [
+        {
+          "title": "料酒去腥机理及其在烹饪中的应用",
+          "source": "中国调味品",
+          "year": 2018,
+          "finding": "料酒中的乙醇能溶解腥味物质，随挥发带走"
+        }
+      ]
+    },
+    {
+      "id": "vinegar",
+      "name": "醋",
+      "aliases": ["米醋", "陈醋", "香醋"],
+      "category": "sauce",
+      "image": "/images/seasonings/vinegar.jpg",
+      "description": "醋是重要的酸味调味品，能去腥解腻、增加食欲，还具有一定的杀菌作用。不同种类的醋风味各异。",
+      "functions": ["去腥", "解腻", "增酸", "杀菌"],
+      "usageGuide": {
+        "standardAmount": "5-10毫升/人/餐",
+        "usageScenarios": [
+          {
+            "scenario": "炒菜",
+            "method": "出锅前沿锅边淋入",
+            "tips": "高温使醋香挥发，增加菜品香气"
+          },
+          {
+            "scenario": "凉拌",
+            "method": "直接加入调味",
+            "tips": "香醋适合凉拌，陈醋适合蘸料"
+          }
+        ]
+      },
+      "types": [
+        { "name": "米醋", "usage": "适合炒菜、凉拌" },
+        { "name": "陈醋", "usage": "适合蘸料、红烧" },
+        { "name": "香醋", "usage": "适合凉拌、蘸料" }
+      ],
+      "substitution": "可用柠檬汁替代，但风味不同",
+      "scientificReferences": [
+        {
+          "title": "食醋的营养价值及保健功能研究进展",
+          "source": "食品研究与开发",
+          "year": 2019,
+          "finding": "醋含有多种有机酸，具有促进消化、降低血糖等功效"
+        }
+      ]
+    },
+    {
+      "id": "oyster-sauce",
+      "name": "蚝油",
+      "aliases": ["耗油"],
+      "category": "sauce",
+      "image": "/images/seasonings/oyster-sauce.jpg",
+      "description": "蚝油是用牡蛎熬制而成的调味品，味道鲜美，口感醇厚，是粤菜中常用的调味品，适合炒菜、蘸料。",
+      "functions": ["提鲜", "增稠", "增色"],
+      "usageGuide": {
+        "standardAmount": "5-10毫升/人/餐",
+        "usageScenarios": [
+          {
+            "scenario": "炒菜",
+            "method": "出锅前加入，快速翻炒",
+            "tips": "蚝油不宜久煮，否则鲜味会流失"
+          },
+          {
+            "scenario": "蘸料",
+            "method": "与其他调料混合使用",
+            "tips": "蚝油生菜，简单美味"
+          }
+        ]
+      },
+      "substitution": "可用生抽+少许糖替代，但鲜味略差",
+      "selectionGuide": {
+        "quality": "选择蚝汁含量高的产品",
+        "storage": "开封后冰箱冷藏"
+      },
+      "scientificReferences": [
+        {
+          "title": "蚝油中鲜味物质的分析研究",
+          "source": "食品工业科技",
+          "year": 2020,
+          "finding": "蚝油含有丰富的氨基酸和核苷酸，鲜味浓郁"
+        }
+      ]
+    },
+    {
+      "id": "cooking-oil",
+      "name": "食用油",
+      "aliases": ["植物油", "菜籽油", "花生油"],
+      "category": "oil",
+      "image": "/images/seasonings/cooking-oil.jpg",
+      "description": "食用油是烹饪的基础介质，用于炒菜、煎炸等。不同种类的油有不同的烟点和风味，应根据烹饪方式选择。",
+      "functions": ["传热", "增香", "润滑"],
+      "usageGuide": {
+        "standardAmount": "15-25毫升/人/餐",
+        "usageScenarios": [
+          {
+            "scenario": "炒菜",
+            "method": "热锅凉油，油温五六成热时下料",
+            "tips": "油温过高会产生有害物质"
+          },
+          {
+            "scenario": "煎炸",
+            "method": "油温控制在180°C以下",
+            "tips": "可用筷子测试油温，周围冒泡即可"
+          }
+        ]
+      },
+      "types": [
+        { "name": "花生油", "smokePoint": "230°C", "usage": "适合炒菜" },
+        { "name": "菜籽油", "smokePoint": "220°C", "usage": "适合炒菜、煎炸" },
+        { "name": "橄榄油", "smokePoint": "160°C", "usage": "适合凉拌、低温烹饪" }
+      ],
+      "healthTips": "控制用油量，成人每日烹调油摄入量25-30克",
+      "scientificReferences": [
+        {
+          "title": "不同食用油烟点及烹饪适用性研究",
+          "source": "中国油脂",
+          "year": 2019,
+          "finding": "超过烟点会产生有害物质，应选择适合的油温"
+        }
+      ]
+    }
+  ]
+}

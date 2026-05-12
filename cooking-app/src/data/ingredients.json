@@ -1,0 +1,212 @@
+{
+  "ingredients": [
+    {
+      "id": "scallion",
+      "name": "葱",
+      "aliases": ["大葱", "小葱", "香葱"],
+      "category": "vegetable",
+      "image": "/images/ingredients/scallion.jpg",
+      "description": "葱是中式烹饪中最常用的调味蔬菜，具有独特的辛香味，能够去腥增香，是炒菜、炖汤、凉拌的必备食材。",
+      "functions": ["去腥", "提香", "增色", "开胃"],
+      "usageGuide": {
+        "standardAmount": "2-3根/人",
+        "usageScenarios": [
+          {
+            "scenario": "爆锅",
+            "method": "热油后放入葱段，小火煸炒至微黄",
+            "tips": "葱白先下锅，葱绿后放，避免葱绿烧焦"
+          },
+          {
+            "scenario": "点缀",
+            "method": "出锅前撒葱花",
+            "tips": "保留葱的鲜香味，颜色更翠绿"
+          },
+          {
+            "scenario": "炖汤",
+            "method": "整根葱打结放入",
+            "tips": "汤好后取出，不留葱渣"
+          }
+        ]
+      },
+      "selectionGuide": {
+        "freshness": "选择葱白饱满、葱叶翠绿、无黄叶的",
+        "storage": "用报纸包裹，放冰箱冷藏可保存一周"
+      },
+      "pairingSuggestions": [
+        { "ingredient": "姜", "reason": "葱姜搭配，去腥效果更佳" },
+        { "ingredient": "蒜", "reason": "葱姜蒜三宝，爆锅必备" },
+        { "ingredient": "鸡蛋", "reason": "葱花炒蛋，经典搭配" }
+      ],
+      "scientificReferences": [
+        {
+          "title": "葱属植物挥发性成分及其生物活性研究",
+          "source": "食品科学",
+          "year": 2019,
+          "finding": "葱含有大蒜素等硫化物，具有抗菌、抗炎作用"
+        }
+      ]
+    },
+    {
+      "id": "ginger",
+      "name": "姜",
+      "aliases": ["生姜", "老姜", "嫩姜"],
+      "category": "vegetable",
+      "image": "/images/ingredients/ginger.jpg",
+      "description": "姜是中式烹饪中重要的去腥调料，含有姜辣素，能温暖脾胃、促进消化，特别适合与肉类食材搭配。",
+      "functions": ["去腥", "暖胃", "增香", "驱寒"],
+      "usageGuide": {
+        "standardAmount": "3-5片/人",
+        "usageScenarios": [
+          {
+            "scenario": "去腥",
+            "method": "肉类焯水或烹饪时加入姜片",
+            "tips": "老姜去腥效果更好，嫩姜适合腌制"
+          },
+          {
+            "scenario": "爆锅",
+            "method": "热油后放入姜丝或姜片",
+            "tips": "小火慢煸，香味更浓"
+          }
+        ]
+      },
+      "selectionGuide": {
+        "freshness": "选择表皮光滑、肉质饱满、无腐烂的",
+        "storage": "常温通风处保存，或用沙子埋藏"
+      },
+      "pairingSuggestions": [
+        { "ingredient": "葱", "reason": "葱姜搭配，去腥增香" },
+        { "ingredient": "鱼", "reason": "姜能去鱼腥味" },
+        { "ingredient": "猪肉", "reason": "姜能去猪肉腥味" }
+      ],
+      "scientificReferences": [
+        {
+          "title": "生姜中姜辣素的提取及其抗氧化活性研究",
+          "source": "中国调味品",
+          "year": 2020,
+          "finding": "姜辣素具有抗氧化、抗炎、促进消化等功效"
+        }
+      ]
+    },
+    {
+      "id": "garlic",
+      "name": "蒜",
+      "aliases": ["大蒜", "蒜头", "蒜瓣"],
+      "category": "vegetable",
+      "image": "/images/ingredients/garlic.jpg",
+      "description": "蒜是中式烹饪中不可或缺的调味品，含有大蒜素，具有强烈的辛香味和抗菌作用，能显著提升菜品风味。",
+      "functions": ["杀菌", "增香", "去腥", "开胃"],
+      "usageGuide": {
+        "standardAmount": "2-3瓣/人",
+        "usageScenarios": [
+          {
+            "scenario": "爆锅",
+            "method": "热油后放入蒜末，小火煸炒至金黄",
+            "tips": "蒜末容易烧焦，注意火候"
+          },
+          {
+            "scenario": "蒜蓉",
+            "method": "蒜切末后与油混合",
+            "tips": "可用于蒜蓉粉丝、蒜蓉茄子等"
+          }
+        ]
+      },
+      "selectionGuide": {
+        "freshness": "选择蒜瓣饱满、外皮干燥、无发芽的",
+        "storage": "常温通风处保存，避免潮湿"
+      },
+      "pairingSuggestions": [
+        { "ingredient": "青菜", "reason": "蒜蓉炒青菜，清香可口" },
+        { "ingredient": "茄子", "reason": "蒜蓉茄子，经典搭配" },
+        { "ingredient": "粉丝", "reason": "蒜蓉粉丝，鲜香美味" }
+      ],
+      "scientificReferences": [
+        {
+          "title": "大蒜素的生物活性及其在食品中的应用",
+          "source": "食品研究与开发",
+          "year": 2018,
+          "finding": "大蒜素具有广谱抗菌作用，对多种致病菌有抑制效果"
+        }
+      ]
+    },
+    {
+      "id": "tomato",
+      "name": "番茄",
+      "aliases": ["西红柿"],
+      "category": "vegetable",
+      "image": "/images/ingredients/tomato.jpg",
+      "description": "番茄是常见的蔬果两用食材，富含番茄红素和维生素C，酸甜可口，既可生食也可烹饪，是家常菜的重要原料。",
+      "functions": ["提鲜", "增色", "开胃", "补充维生素"],
+      "usageGuide": {
+        "standardAmount": "1-2个/人",
+        "usageScenarios": [
+          {
+            "scenario": "炒菜",
+            "method": "切块后炒制，出汁后加入其他食材",
+            "tips": "番茄炒出汁更香，可加少许糖提鲜"
+          },
+          {
+            "scenario": "汤",
+            "method": "切块煮汤",
+            "tips": "番茄蛋汤，简单美味"
+          }
+        ]
+      },
+      "selectionGuide": {
+        "freshness": "选择颜色鲜红、手感稍软、无破损的",
+        "storage": "常温保存或冰箱冷藏"
+      },
+      "pairingSuggestions": [
+        { "ingredient": "鸡蛋", "reason": "番茄炒蛋，国民家常菜" },
+        { "ingredient": "牛肉", "reason": "番茄牛腩，酸甜开胃" }
+      ],
+      "scientificReferences": [
+        {
+          "title": "番茄红素的保健功能及提取技术研究进展",
+          "source": "食品工业科技",
+          "year": 2021,
+          "finding": "番茄红素具有抗氧化、预防心血管疾病等功效"
+        }
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "鸡蛋",
+      "aliases": ["鸡蛋"],
+      "category": "protein",
+      "image": "/images/ingredients/egg.jpg",
+      "description": "鸡蛋是最常见、最经济的优质蛋白质来源，烹饪方式多样，是新手入门的最佳食材选择。",
+      "functions": ["补充蛋白质", "增稠", "裹粉", "装饰"],
+      "usageGuide": {
+        "standardAmount": "1-2个/人",
+        "usageScenarios": [
+          {
+            "scenario": "炒蛋",
+            "method": "打散后热油快炒",
+            "tips": "油温要高，快速翻炒，保持嫩滑"
+          },
+          {
+            "scenario": "煎蛋",
+            "method": "热油后打入鸡蛋",
+            "tips": "小火慢煎，蛋白凝固后翻面"
+          }
+        ]
+      },
+      "selectionGuide": {
+        "freshness": "选择蛋壳完整、无裂纹的，放入水中沉底为新鲜",
+        "storage": "冰箱冷藏，大头朝上"
+      },
+      "pairingSuggestions": [
+        { "ingredient": "番茄", "reason": "番茄炒蛋，经典搭配" },
+        { "ingredient": "葱", "reason": "葱花炒蛋，简单美味" }
+      ],
+      "scientificReferences": [
+        {
+          "title": "鸡蛋蛋白质的营养价值评价",
+          "source": "营养学报",
+          "year": 2019,
+          "finding": "鸡蛋蛋白质氨基酸组成最接近人体需求，生物价最高"
+        }
+      ]
+    }
+  ]
+}
