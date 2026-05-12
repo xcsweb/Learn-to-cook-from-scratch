@@ -52,7 +52,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/Learn-to-cook-from-scratch/'),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {

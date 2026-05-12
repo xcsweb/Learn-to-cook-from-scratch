@@ -26,7 +26,7 @@ const toggleMenu = () => {
       </router-link>
       
       <nav class="nav-desktop">
-        <router-link to="/" class="nav-link">首页</router-link>
+        <router-link to="/" class="nav-link" active-class="router-link-exact-active">首页</router-link>
         <router-link to="/ingredients" class="nav-link">食材调料</router-link>
         <router-link to="/recipes" class="nav-link">菜谱中心</router-link>
         <router-link to="/guide" class="nav-link">入门指南</router-link>
@@ -49,7 +49,7 @@ const toggleMenu = () => {
     </div>
     
     <nav v-if="isMenuOpen" class="nav-mobile">
-      <router-link to="/" class="nav-link" @click="isMenuOpen = false">首页</router-link>
+      <router-link to="/" class="nav-link" active-class="router-link-exact-active" @click="isMenuOpen = false">首页</router-link>
       <router-link to="/ingredients" class="nav-link" @click="isMenuOpen = false">食材调料</router-link>
       <router-link to="/recipes" class="nav-link" @click="isMenuOpen = false">菜谱中心</router-link>
       <router-link to="/guide" class="nav-link" @click="isMenuOpen = false">入门指南</router-link>
@@ -107,7 +107,8 @@ const toggleMenu = () => {
 }
 
 .nav-link:hover,
-.nav-link.router-link-active {
+.nav-link.router-link-active,
+.nav-link.router-link-exact-active {
   color: white;
   border-bottom-color: white;
 }
